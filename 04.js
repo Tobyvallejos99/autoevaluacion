@@ -13,6 +13,12 @@ function numeroSimetrico(num) {
   // numeroSimetrico(11711) devuelve true
 
   // Tu código:
+  const numeroInvertidoComoCadena = num.toString().split("").reverse().join("");
+     if (numeroInvertidoComoCadena ==num){
+      return true;
+     }
+     else{return false;
+    }
 
 }
 
